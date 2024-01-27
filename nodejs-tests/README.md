@@ -4,13 +4,14 @@ Os CLIENTES precisam realizar AGENDAMENTOS
 So que eles nao conseguem saber os HORARIOS disponiveis
 
 
+## entities
 
 Criação da pasta entities
 Foi criado um appointment/agendamento
 instalação das dependencias do "VITEST"
 
 
-<!-- ## regra de negocios entities -->
+## regra de negocios entities
 Teste: 'create an appointment'
 
 1 - Este teste cria uma instância da classe Appointment com um cliente chamado 'John Doe', uma data de início (startsAt) e uma data de término (endsAt) que é um dia depois da data de início.
@@ -22,10 +23,10 @@ Teste: 'Cannot create an appointment with end date before start date'
 Não é feita a espera de exceção (o que seria necessário para testes assíncronos).
 Este teste poderia ser melhorado para incluir a verificação de que uma exceção é lançada quando a condição inválida é atendida.
 
-<!-- ## regra de negocios use-cases -->
+## regra de negocios use-cases
 
 
-<!-- #test/utils - get-future-date -->
+## test/utils - get-future-date
 Criação da Data Atual:
 
 Obtém o ano atual usando new Date().getFullYear().
